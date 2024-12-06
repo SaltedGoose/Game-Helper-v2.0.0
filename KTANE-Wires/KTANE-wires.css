@@ -1,0 +1,144 @@
+.wire-buttons{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FB773C; 
+    border-width: 5px;
+}
+
+#input-div{
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cut-display-div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#submit, #reset{
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+    background-color:#FB773C;
+}
+
+#submit{
+    border-color: #00FF9C;
+}
+
+#reset{
+    border-color: #FF4545;
+}
+
+#submit:hover{
+    background-color:#00FF9C;
+}
+
+#reset:hover{
+    background-color:#FF4545;
+}
+
+#odd-button, #even-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: #FB773C;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#odd-button{
+    border-color: #FF4545;
+    margin-right: 20px;
+}
+
+#odd-button:hover{
+    background-color:#FF4545;
+}
+
+#even-button{
+    border-color: #1F509A;
+    margin-left: 20px;
+}
+
+#even-button:hover{
+    background-color:#1F509A;
+}
+
+#left-button, #right-button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FB773C;
+    border-color: #0A5EB0;
+    border-width: 5px;
+    font-size: 30px;
+}
+
+#left-button:hover, #right-button:hover{
+    background-color: #0A5EB0;
+}
+
+#battery-label{
+    text-align: center;
+    padding: 30px;
+}
+
+#red-button{
+    border-color: #B8001F;
+    margin-right: 20px;
+}
+
+#red-button:hover{
+    background-color: #B8001F;
+}
+
+#blue-button{
+    border-color: #384B70;
+    margin-right: 20px;
+}
+
+#blue-button:hover{
+    background-color: #384B70;
+}
+
+#yellow-button{
+    border-color: #FFB200;
+    margin-right: 20px;
+}
+
+#yellow-button:hover{
+    background-color: #FFB200;
+}
+
+#white-button{
+    border-color: #FDF7F4;
+    margin-right: 20px;
+}
+
+#white-button:hover{
+    background-color: #FDF7F4;
+}
+
+#black-button{
+    border-color: #1A1A1D;
+    margin-right: 20px;
+}
+
+#black-button:hover{
+    background-color: #1A1A1D;
+}
+
+#cut-display-1, #cut-display-2, #cut-display-3, #cut-display-4, #cut-display-5, #cut-display-6{
+    visibility: hidden;
+}
+
+p{
+    padding-bottom: 20px;
+}

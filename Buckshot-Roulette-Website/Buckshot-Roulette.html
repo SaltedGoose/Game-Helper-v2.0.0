@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="Buckshot-style.css">
+    <title>Buckshot-Roulette-Probability-Calc</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <a class="top-nav-bar" href="../index.html">Home</a>
+        <a class="top-nav-bar active" href="Buckshot-Roulette.html">BuckShot Roulette</a>
+        <a class="top-nav-bar" href="../KTANE-Home/KTANE-home.html">KTANE</a>
+    </div>
+    <div id="main-div">
+        <div style="float: left;">
+            <div class="form-div">
+                <label><strong>Shell Lineup (Blank,Live):</strong></label><br>
+                <input type="text" id="blank-live" name="blank-live"><br>
+                <button id="submit-shell-lineup">Submit Shell Lineup</button>
+            </div>
+    
+            <div class="form-div">
+                <label><strong>Known Shells: ex. 4B, 6L</strong></label><br>
+                <input type="text" id="known-shells" name="know-shells"><br>
+                <button id='submit-known-shells'>Submit Known Shells</button>
+            </div>
+        </div>
+        <div style="float: right; padding: 30px;">
+            <label id='display-shell-lineup', class='display-labels'><strong>[?, ?, ?, ?, ?, ?, ?]</strong></label><br><br>
+            <label id='live-prob-label' class='display-labels'><strong>Live Probability: 0%</strong></label><br><br>
+            <label id='blank-prob-label' class='display-labels'><strong>Blank Probability: 0%</strong></label><br><br>
+            <label id='remaining-lives' class='display-labels'><strong>Number of Lives: 0</strong></label><br><br>
+            <label id='remaining-blanks' class='display-labels'><strong>Number of Blanks: 0</strong></label><br><br>
+
+            <button id="live" style="margin-left: 23px; margin-top: 15px;">Live Fired</button>
+            <button id="blank" style="margin-top: 15px;">Blank Fired</button>
+        </div>
+    </div>
+    <footer>
+        <strong>
+            <h3 style="margin: 0px; float: left; padding-top: 35px; padding-left: 10px;">Buckshot-Roulette-Probability-Calc v1.0.0</h3>
+        </strong>
+        <img id="footer-logo-img" src="../imgs/logo.jpg" alt="logo-img">
+    </footer>
+    <script src="Buckshot.js"></script>
+</body>
+</html>

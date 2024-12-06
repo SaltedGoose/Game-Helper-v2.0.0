@@ -1,0 +1,38 @@
+button{
+    border-radius: 10px;
+    border-width: 5px;
+    width: 250px;
+    height:40px;
+    border-color: blue;
+    background-color: #FB773C;
+    color: white;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+label{
+    font-size: 25px;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-div{
+    margin: 30px;
+}
+
+
+.display-labels {
+    padding: 10px
+}
+
+#live, #blank{
+    width: 150px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="KTANE-wires.css">
+    <title>KTANE-Wires</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <a class="top-nav-bar" href="../KTANE-Home/KTANE-home.html">Home</a>
+        <a class="top-nav-bar active" href="KTANE-wires.html">Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Buttons/KTANE-buttons.html">Buttons</a>
+        <a class="top-nav-bar" href="../KTANE-Keypad/KTANE-keypad.html">Keypads</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Simon</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Who's first</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Memory</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Morse</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Comp Wires</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Wire Seq</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Mazes</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Passwords</a>
+    </div>
+    <div id="main-div">
+        <div id="input-div">
+            <h2>Number of Batteries</h2>
+            <div style="padding-top: 20px; font-size: 30px;">
+                <button id="left-button">←</button>
+                <label id="battery-label">0</label>
+                <button id="right-button">→</button>
+            </div>
+            <div>
+                <button id="odd-button">Odd</button>
+                <button id="even-button">Even</button>
+            </div>
+            <button id="submit">Submit</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div>
+            <button id="red-button" class="wire-buttons"></button>    <button id="colour-display-1"  class="wire-buttons" disabled></button><br><br>
+            <button id="blue-button" class="wire-buttons"></button>    <button id="colour-display-2" class="wire-buttons" disabled></button><br><br>
+            <button id="yellow-button" class="wire-buttons"></button>    <button id="colour-display-3" class="wire-buttons" disabled></button><br><br>
+            <button id="white-button" class="wire-buttons"></button>    <button id="colour-display-4" class="wire-buttons" disabled></button><br><br>
+            <button id="black-button" class="wire-buttons"></button>    <button id="colour-display-5" class="wire-buttons" disabled></button><br><br>
+            <button style="visibility: hidden; margin-right: 20px;" class="wire-buttons"></button>    <button id="colour-display-6" class="wire-buttons" disabled></button><br>
+        </div>
+        <div id="cut-display-div">
+            <p id="cut-display-1">Cut</p>
+            <p id="cut-display-2">Cut</p>
+            <p id="cut-display-3">Cut</p>
+            <p id="cut-display-4">Cut</p>
+            <p id="cut-display-5">Cut</p>
+            <p id="cut-display-6">Cut</p>
+        </div>
+    </div>
+    <footer>
+        <strong>
+            <h3 style="margin: 0px; float: left; padding-top: 35px; padding-left: 10px;">Wires v1.0.0</h3>
+            <img id="footer-logo-img" src="../imgs/logo.jpg" alt="logo-img">
+        </strong>
+    </footer>
+    <script src="KTANE-wires.js"></script>
+</body>
+</html>

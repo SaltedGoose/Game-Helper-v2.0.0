@@ -1,0 +1,38 @@
+.selector-buttons{
+    width: 100%;
+    height: 100%;
+    background-color: #FB773C;
+    border-color: aqua;
+    color: white;
+    font-size: 40px;
+}
+
+.selector-buttons:hover{
+    background: aqua;
+}
+
+.button-display{
+    width: 100px;
+    height: 90px;
+}
+
+#ktane-text-display{
+    width: 70%; 
+    height: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#ktane-button-selector{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FB773C;
+    border-color: aqua;
+    font-size: 20px;
+}
+
+#ktane-button-selector:hover{
+    background-color: aqua;
+}

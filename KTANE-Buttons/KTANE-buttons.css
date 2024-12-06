@@ -1,0 +1,139 @@
+.rounded-button{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: #FB773C;
+}
+
+.red-buttons{
+    border-color: #FF0000;
+    color: #B8001F;
+}
+
+.red-buttons:hover{
+    background-color: #FF0000;
+    color: #F2F9FF;
+}
+
+.blue-buttons{
+    border-color: #1F509A;
+    color: #1F509A;
+}
+
+.blue-buttons:hover{
+    background-color: #1F509A;
+    color: #F2F9FF;
+}
+
+.white-buttons{
+    border-color: #F2F9FF;
+    color: #F2F9FF;
+}
+
+.white-buttons:hover{
+    background-color: #F2F9FF;
+    color: black;
+}
+
+.black-buttons{
+    border-color: #2A3335;
+    color: #2A3335;
+}
+
+.black-buttons:hover{
+    background-color: #2A3335;
+    color: #F2F9FF;
+}
+
+#input-div{
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+}
+
+#left-button, #right-button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FB773C;
+    border-color: #0A5EB0;
+    border-width: 5px;
+    font-size: 30px;
+}
+
+#left-button:hover, #right-button:hover{
+    background-color: #0A5EB0;
+}
+
+#battery-label{
+    text-align: center;
+    padding: 30px;
+}
+
+#car-button, #frk-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: #FB773C;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#car-button{
+    border-color: #FF4545;
+    margin-right: 20px;
+}
+
+#car-button:hover{
+    background-color:#FF4545;
+}
+
+#frk-button{
+    border-color: #1F509A;
+    margin-left: 20px;
+}
+
+#frk-button:hover{
+    background-color:#1F509A;
+}
+
+#reset{
+    height: 40px;
+    border-radius: 50px;
+    background-color:#FB773C;
+    border-color:#FF4545;
+}
+
+#reset:hover{
+    background-color: #FF4545;
+}
+
+#hold-div{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    visibility: hidden;
+}
+
+.colour-display{
+    width: 33%;
+    height: 40%;
+    border-radius: 10%;
+    padding: 120px 30px;
+    background-color: red;
+    margin: 0px 10px;
+}
+
+#colour-display-1{
+    background-color: #1F509A;
+}
+
+#colour-display-2{
+    background-color: #FFB200;
+}
+
+#colour-display-3{
+    background-color:#F2F9FF;
+}

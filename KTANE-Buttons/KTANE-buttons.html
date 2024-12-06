@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="KTANE-buttons.css">
+    <title>KTANE-Buttons</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <a class="top-nav-bar" href="../KTANE-Home/KTANE-home.html">Home</a>
+        <a class="top-nav-bar" href="../KTANE-Wires/KTANE-wires.html">Wires</a>
+        <a class="top-nav-bar active" href="KTANE-buttons.html">Buttons</a>
+        <a class="top-nav-bar" href="../KTANE-Keypad/KTANE-keypad.html">Keypads</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Simon</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Who's first</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Memory</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Morse</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Comp Wires</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Wire Seq</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Mazes</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Passwords</a>
+    </div>
+    <div id="main-div">
+        <div id="input-div">
+            <h2>Number of Batteries</h2>
+            <div style="padding-top: 20px; font-size: 30px;">
+                <button id="left-button">←</button>
+                <label id="battery-label">0</label>
+                <button id="right-button">→</button>
+            </div>
+            <div style="padding-top: 40px; padding-bottom: 40px;">
+                <button id="frk-button">Frk</button>
+                <button id="car-button">Car</button>
+            </div>
+            <button id="reset">Reset</button>
+            <h2 id="answer-header"></h2>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><button id="red-abort" class="rounded-button red-buttons">Abort</button></td>
+                    <td><button id="red-detonate" class="rounded-button red-buttons">Detonate</button></td>
+                    <td><button id="red-hold" class="rounded-button red-buttons">Hold</button></td>
+                    <td><button id="red-press"class="rounded-button red-buttons">Press</button></td>
+                </tr>
+                <tr>
+                    <td><button id="blue-abort" class="rounded-button blue-buttons">Abort</button></td>
+                    <td><button id="blue-detonate"class="rounded-button blue-buttons">Detonate</button></td>
+                    <td><button id="blue-hold" class="rounded-button blue-buttons">Hold</button></td>
+                    <td><button id="blue-press" class="rounded-button blue-buttons">Press</button></td>
+                </tr>
+                <tr>
+                    <td><button id="white-abort" class="rounded-button white-buttons">Abort</button></td>
+                    <td><button id="white-detonate" class="rounded-button white-buttons">Detonate</button></td>
+                    <td><button id="white-hold" class="rounded-button white-buttons">Hold</button></td>
+                    <td><button id="white-press" class="rounded-button white-buttons">Press</button></td>
+                </tr>
+                <tr>
+                    <td><button id="else-abort" class="rounded-button black-buttons">Abort</button></td>
+                    <td><button id="else-detonate" class="rounded-button black-buttons">Detonate</button></td>
+                    <td><button id="else-hold"class="rounded-button black-buttons">Hold</button></td>
+                    <td><button id="else-press" class="rounded-button black-buttons">Press</button></td>
+                </tr>
+            </table>
+        </div>
+        <div id="hold-div">
+            <div>
+                <h2>Release at:</h2>
+                <table id="display-table" style="border-width: 10px;">
+                    <tr>
+                        <td id="colour-display-1" class="colour-display"></td>
+                        <td style="padding: 120px 20px;"></td>
+                        <td id="colour-display-2" class="colour-display"></td>
+                        <td style="padding: 120px 20px;"></td>
+                        <td id="colour-display-3" class="colour-display"></td>
+                    </tr>
+                    <tr>
+                        <td>4s</td>
+                        <td></td>
+                        <td>5s</td>
+                        <td></td>
+                        <td>1s</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <strong>
+            <h3 style="margin: 0px; float: left; padding-top: 35px; padding-left: 10px;">Buttons v1.0.0</h3>
+            <img id="footer-logo-img" src="../imgs/logo.jpg" alt="logo-img">
+        </strong>
+    </footer>
+    <script src="KTANE-buttons.js"></script>
+</body>
+</html>
