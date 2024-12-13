@@ -1,0 +1,27 @@
+.word-buttons{
+    width: 100px;
+    height: 30px;
+    border-width: 4px;
+    border-radius: 10px;
+    margin: 4px;
+    background-color: #FB773C;
+    border-color: #F2F9FF;
+    color: #F2F9FF;
+}
+
+.word-buttons:hover{
+    background-color: #F2F9FF;
+    color: #2A3335;
+}
+
+.word-list-header-div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.word-header{
+    padding: 0px 30px 0px 30px;
+    width: 50%;
+}

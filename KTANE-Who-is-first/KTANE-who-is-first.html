@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="KTANE-who-is-first.css">
+    <title>KTANE-who-is-first</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <a class="top-nav-bar" href="../KTANE-Home/KTANE-home.html">Home</a>
+        <a class="top-nav-bar" href="../KTANE-Wires/KTANE-wires.html">Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Buttons/KTANE-buttons.html">Buttons</a>
+        <a class="top-nav-bar" href="../KTANE-Keypad/KTANE-keypad.html">Keypads</a>
+        <a class="top-nav-bar" href="../KTANE-Simon-Says/KTANE-simon-says.html">Simon</a>
+        <a class="top-nav-bar active" href="KTANE-who-is-first.html">Who's first</a>
+        <a class="top-nav-bar" href="../KTANE-Memory/KTANE-memory.html">Memory</a>
+        <a class="top-nav-bar" href="../KTANE-Morse-Code/KTANE-morse-code.html">Morse</a>
+        <a class="top-nav-bar" href="../KTANE-Complicated-Wires/KTANE-complicated-wires.html">Comp Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Wire-Sequences/KTANE-wire-sequences.html">Wire Seq</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Mazes</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Passwords</a>
+    </div>
+    <div id="main-div">
+        <div style="display: flex; flex-direction: column;">
+            <h3 style="margin: 0px; padding: 10px;">Label on Screen</h3>
+
+            <div>
+                <button id="label-button-yes" class="word-buttons">Yes</button>
+                <button id="label-button-first" class="word-buttons">First</button>
+                <button id="label-button-display" class="word-buttons">Display</button>
+            </div>
+            <div>
+                <button id="label-button-okay" class="word-buttons">Okay</button>
+                <button id="label-button-says" class="word-buttons">Says</button>
+                <button id="label-button-nothing" class="word-buttons">Nothing</button>
+            </div>
+            <div>
+                <button id="label-button-" class="word-buttons">-----</button>
+                <button id="label-button-blank" class="word-buttons">Blank</button>
+                <button id="label-button-no" class="word-buttons">No</button>
+            </div>
+            <div>
+                <button id="label-button-led" class="word-buttons">Led</button>
+                <button id="label-button-lead" class="word-buttons">Lead</button>
+                <button id="label-button-read" class="word-buttons">Read</button>
+            </div>
+            <div>
+                <button id="label-button-red" class="word-buttons">Red</button>
+                <button id="label-button-reed" class="word-buttons">Reed</button>
+                <button id="label-button-leed" class="word-buttons">Leed</button>
+            </div>
+            <div>
+                <button id="label-button-hold-on" class="word-buttons">Hold On</button>
+                <button id="label-button-you" class="word-buttons">You</button>
+                <button id="label-button-you-are" class="word-buttons">You Are</button>
+            </div>
+            <div>
+                <button id="label-button-your" class="word-buttons">Your</button>
+                <button id="label-button-you're" class="word-buttons">You're</button>
+                <button id="label-button-ur" class="word-buttons">Ur</button>
+            </div>
+            <div>
+                <button id="label-button-there" class="word-buttons">there</button>
+                <button id="label-button-they're" class="word-buttons">they're</button>
+                <button id="label-button-their" class="word-buttons">their</button>
+            </div>
+            <div>
+                <button id="label-button-they-are" class="word-buttons">They Are</button>
+                <button id="label-button-see" class="word-buttons">See</button>
+            </div>
+            <div>
+                <button id="label-button-c" class="word-buttons">C</button>
+                <button id="label-button-cee" class="word-buttons">Cee</button>
+            </div>
+
+            <h3 style="margin: 0px; padding: 10px;" id="answer-header"></h3>
+        </div>
+        <div style="display: flex; flex-direction: column; margin: 0px 100px 0px 100px;">
+            <h3 style="margin: 0px; padding: 10px;">Label on button</h3>
+            <div>
+                <button id="button-label-button-ready" class="word-buttons">Ready</button>
+                <button id="button-label-button-first" class="word-buttons">First</button>
+                <button id="button-label-button-no" class="word-buttons">No</button>
+            </div>
+            <div>
+                <button id="button-label-button-blank" class="word-buttons">Blank</button>
+                <button id="button-label-button-nothing" class="word-buttons">Nothing</button>
+                <button id="button-label-button-yes" class="word-buttons">Yes</button>
+            </div>
+            <div>
+                <button id="button-label-button-what" class="word-buttons">What</button>
+                <button id="button-label-button-uhhh" class="word-buttons">Uhhh</button>
+                <button id="button-label-button-left" class="word-buttons">Left</button>
+            </div>
+            <div>
+                <button id="button-label-button-right" class="word-buttons">Right</button>
+                <button id="button-label-button-middle" class="word-buttons">Middle</button>
+                <button id="button-label-button-okay" class="word-buttons">Okay</button>
+            </div>
+            <div>
+                <button id="button-label-button-wait" class="word-buttons">Wait</button>
+                <button id="button-label-button-press" class="word-buttons">Press</button>
+                <button id="button-label-button-you" class="word-buttons">You</button>
+            </div>
+            <div>
+                <button id="button-label-button-you-are" class="word-buttons">You Are</button>
+                <button id="button-label-button-your" class="word-buttons">Your</button>
+                <button id="button-label-button-you're" class="word-buttons">You're</button>
+            </div>
+            <div>
+                <button id="button-label-button-ur" class="word-buttons">Ur</button>
+                <button id="button-label-button-u" class="word-buttons">U</button>
+                <button id="button-label-button-uh-huh" class="word-buttons">Uh huh</button>
+            </div>
+            <div>
+                <button id="button-label-button-uh-uh" class="word-buttons">uh uh</button>
+                <button id="button-label-button-what?" class="word-buttons">What?</button>
+                <button id="button-label-button-done" class="word-buttons">Done</button>
+            </div>
+            <div>
+                <button id="button-label-button-next" class="word-buttons">Next</button>
+                <button id="button-label-button-hold" class="word-buttons">Hold</button>
+                <button id="button-label-button-sure" class="word-buttons">Sure</button>
+            </div>
+            <div>
+                <button class="word-buttons" style="visibility: hidden;"></button>
+                <button id="button-label-button-like" class="word-buttons">Like</button>
+                <button class="word-buttons" style="visibility: hidden;"></button>
+            </div>
+            <h3></h3>
+        </div>
+        <div style="display: flex; flex-direction: column; text-align: center;">
+            <h3 style="width: 100%;">Button to click</h3>
+            <div class="word-list-header-div">
+                <h3 id="word-header-1" class="word-header">-----</h3> <h3 id="word-header-8" class="word-header">-----</h3>
+            </div>
+            <div class="word-list-header-div">
+                <h3 id="word-header-2" class="word-header">-----</h3> <h3 id="word-header-9" class="word-header">-----</h3>
+            </div>
+            <div class="word-list-header-div">
+                <h3 id="word-header-3" class="word-header">-----</h3> <h3 id="word-header-10" class="word-header">-----</h3>
+            </div>
+            <div class="word-list-header-div">
+                <h3 id="word-header-4" class="word-header">-----</h3> <h3 id="word-header-11" class="word-header">-----</h3>
+            </div>
+            <div class="word-list-header-div">
+                <h3 id="word-header-5" class="word-header">-----</h3> <h3 id="word-header-12" class="word-header">-----</h3>
+            </div>
+            <div class="word-list-header-div">
+                <h3 id="word-header-6" class="word-header">-----</h3> <h3 id="word-header-13" class="word-header">-----</h3>
+            </div>
+            <div class="word-list-header-div">
+                <h3 id="word-header-7" class="word-header">-----</h3> <h3 id="word-header-14" class="word-header">-----</h3>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <strong>
+            <h3 style="margin: 0px; float: left; padding-top: 35px; padding-left: 10px;">Who's first v1.0.0</h3>
+            <img id="footer-logo-img" src="../imgs/logo.jpg" alt="logo-img">
+        </strong>
+    </footer>
+    <script src="KTANE-who-is-first.js"></script>
+</body>
+</html>

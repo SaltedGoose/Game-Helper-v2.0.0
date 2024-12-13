@@ -13,12 +13,12 @@
         <a class="top-nav-bar" href="../KTANE-Wires/KTANE-wires.html">Wires</a>
         <a class="top-nav-bar" href="../KTANE-Buttons/KTANE-buttons.html">Buttons</a>
         <a class="top-nav-bar active" href="KTANE-keypad.html">Keypads</a>
-        <a class="top-nav-bar" href="KTANE-wires.html">Simon</a>
-        <a class="top-nav-bar" href="KTANE-wires.html">Who's first</a>
-        <a class="top-nav-bar" href="KTANE-wires.html">Memory</a>
-        <a class="top-nav-bar" href="KTANE-wires.html">Morse</a>
-        <a class="top-nav-bar" href="KTANE-wires.html">Comp Wires</a>
-        <a class="top-nav-bar" href="KTANE-wires.html">Wire Seq</a>
+        <a class="top-nav-bar" href="../KTANE-Simon-Says/KTANE-simon-says.html">Simon</a>
+        <a class="top-nav-bar" href="../KTANE-Who-is-first/KTANE-who-is-first.html">Who's first</a>
+        <a class="top-nav-bar" href="../KTANE-Memory/KTANE-memory.html">Memory</a>
+        <a class="top-nav-bar" href="../KTANE-Morse-Code/KTANE-morse-code.html">Morse</a>
+        <a class="top-nav-bar" href="../KTANE-Complicated-Wires/KTANE-complicated-wires.html">Comp Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Wire-Sequences/KTANE-wire-sequences.html">Wire Seq</a>
         <a class="top-nav-bar" href="KTANE-wires.html">Mazes</a>
         <a class="top-nav-bar" href="KTANE-wires.html">Passwords</a>
     </div>
@@ -26,9 +26,9 @@
           <div>
             <button type="button" id="ae-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/ae.png" alt=""></button>
             <button type="button" id="backwards-c-with-two-dots-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/backwards-c-with-two-dots.png" alt=""></button>
-            <button type="button" id="backwards-k" class="keypad-buttons"><img src="../imgs/keypad-imgs/backwards-k.png" alt=""></button>
-            <button type="button" id="backwards-n" class="keypad-buttons"><img src="../imgs/keypad-imgs/backwards-n.png" alt=""></button>
-            <button type="button" id="blank-star" class="keypad-buttons"><img src="../imgs/keypad-imgs/blank-star.png" alt=""></button>
+            <button type="button" id="backwards-k-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/backwards-k.png" alt=""></button>
+            <button type="button" id="backwards-n-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/backwards-n.png" alt=""></button>
+            <button type="button" id="blank-star-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/blank-star.png" alt=""></button>
             <button type="button" id="boob-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/boob.png" alt=""></button>
             <button type="button" id="bt-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/bt.png" alt=""></button>
             <br>
@@ -38,25 +38,33 @@
             <button type="button" id="flag-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/flag.png" alt=""></button>
             <button type="button" id="jigsaw-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/jigsaw.png" alt=""></button>
             <button type="button" id="lightning-bolt-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/lightning-bolt.png" alt=""></button>
-            <button type="button" id="magnifying-glass-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/magnifying_glass.png" alt=""></button>
+            <button type="button" id="magnifying-glass-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/magnifying-glass.png" alt=""></button>
             <br>
             <button type="button" id="omega-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/omega.png" alt=""></button>
             <button type="button" id="pyramid-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/Pyramid.png" alt=""></button>
-            <button type="button" id="reverse-boob-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/reverse_boob.png" alt=""></button>
+            <button type="button" id="reverse-boob-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/reverse-boob.png" alt=""></button>
             <button type="button" id="robot-with-stick-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/robot-with-stick.png" alt=""></button>
             <button type="button" id="six-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/six.png" alt=""></button>
             <button type="button" id="snake-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/snake.png" alt=""></button>
             <button type="button" id="star-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/star.png" alt=""></button>
             <br>
             <button type="button" id="unfinished-three-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/unfinished-three.png" alt=""></button>
-            <button type="button" id="upside-y-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/upside_y.png" alt=""></button>
+            <button type="button" id="upside-y-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/upside-y.png" alt=""></button>
             <button type="button" id="upside-question-mark-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/upside-question-mark.png" alt=""></button>
             <button type="button" id="copyright-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/copyright.png" alt=""></button>
             <button type="button" id="nutsack-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/nutsack.png" alt=""></button>
             <button type="button" id="trident-button" class="keypad-buttons"><img src="../imgs/keypad-imgs/trident.png" alt=""></button>
           </div>
-          <div>
-            
+          <div style="display: flex; flex-direction: column;">
+             <img class="display-imgs" id="display-symbol-1" src="../imgs/keypad-imgs/blank-square.png" alt="">
+             <img class="display-imgs" id="display-symbol-2" src="../imgs/keypad-imgs/blank-square.png" alt="">
+             <img class="display-imgs" id="display-symbol-3" src="../imgs/keypad-imgs/blank-square.png" alt="">
+             <img class="display-imgs" id="display-symbol-4" src="../imgs/keypad-imgs/blank-square.png" alt="">
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <button id="submit-button" class="operator-buttons">Submit</button>
+            <button id="reset-button" class="operator-buttons">Reset</button>
+            <h3 id="incorrect-symbol-display" style="visibility: hidden;">Invalid Options</h3>
           </div>
     </div>
     <footer>

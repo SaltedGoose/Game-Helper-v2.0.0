@@ -8,6 +8,7 @@ var button_7 = document.getElementById("selector-7")
 var button_8 = document.getElementById("selector-8")
 var button_9 = document.getElementById("selector-9")
 var button_10 = document.getElementById("selector-10")
+var button_11 = document.getElementById("selector-11")
 
 var display_img = document.getElementById("current-ktane-helper-img")
 var display_description = document.getElementById("current-ktane-helper-description")
@@ -18,11 +19,12 @@ button_2.onclick = () => change_current_helper_display("buttons", display_img, d
 button_3.onclick = () => change_current_helper_display("keypads", display_img, display_description);
 button_4.onclick = () => change_current_helper_display("simon-says", display_img, display_description);
 button_5.onclick = () => change_current_helper_display("who's on first", display_img, display_description);
-button_6.onclick = () => change_current_helper_display("morse-code", display_img, display_description);
-button_7.onclick = () => change_current_helper_display("complicated-wires", display_img, display_description);
-button_8.onclick = () => change_current_helper_display("wire-sequences", display_img, display_description);
-button_9.onclick = () => change_current_helper_display("mazes", display_img, display_description);
-button_10.onclick = () => change_current_helper_display("passwords", display_img, display_description);
+button_6.onclick = () => change_current_helper_display('memory', display_img, display_description)
+button_7.onclick = () => change_current_helper_display("morse-code", display_img, display_description);
+button_8.onclick = () => change_current_helper_display("complicated-wires", display_img, display_description);
+button_9.onclick = () => change_current_helper_display("wire-sequences", display_img, display_description);
+button_10.onclick = () => change_current_helper_display("mazes", display_img, display_description);
+button_11.onclick = () => change_current_helper_display("passwords", display_img, display_description);
 
 
 function change_current_helper_display(display, display_img, display_description){
@@ -44,30 +46,41 @@ function change_current_helper_display(display, display_img, display_description
             display_description.innerText = 'Click all four keypad symbols that you can see. Then the page will show you what order to click them in game to complete the module'
             page_link.setAttribute('href', "../KTANE-Keypad/KTANE-keypad.html")
             break
-        case "simons-says":
+        case "simon-says":
             display_img.src = "../imgs/ktane-simon-says.png" 
-            display_description.innerText = ''
-            page_link.setAttribute('href', "")
+            display_description.innerText = 'Select whether the serial code has a vowel and how many strikes you have. Then click the colours that'+
+            'flash and submit them. The page will then display the colours you need to click in response.'
+            page_link.setAttribute('href', "../KTANE-Simon-Says/KTANE-simon-says.html")
             break
         case "who's on first":
             display_img.src = "../imgs/ktane-whos-on-first.png" 
-            display_description.innerText = ''
-            page_link.setAttribute('href', "")
+            display_description.innerText = 'First press which label is on the screen of the module. Then press the label of the button'+
+            'that the first section told you to loook at. Finally read of the list possible labels that appears on the right side of the'+
+            'screen top to bottom starting with the left side.'
+            page_link.setAttribute('href', "../KTANE-Who-is-first/KTANE-who-is-first.html")
+            break
+        case "memory":
+            display_img.src = "../imgs/ktane-memory.png"
+            display_description.innerText = 'Select the number on the left that has appeared on the screen. Then use the arrows to select'+
+            'the number that is in the postion you have told to the other player. and click the number to submit it.'
+            page_link.setAttribute('href', "../KTANE-Memory/KTANE-memory.html")
             break
         case "morse-code":
-            display_img.src = "../imgs/ktane-button.png" 
+            display_img.src = "../imgs/ktane-morse-code.png" 
             display_description.innerText = ''
-            page_link.setAttribute('href', "")
+            page_link.setAttribute('href', "../KTANE-Morse_Code/KTANE-morse-code.html")
             break
         case "complicated-wires":
             display_img.src = "../imgs/ktane-complicated-wires.png"
-            display_description.innerText = ''
-            page_link.setAttribute('href', "") 
+            display_description.innerText = 'Enter in the number of batteries, if theres a parrallel port and if the serial number ends in'+
+            'an even number. Then select all the lights lit, the colour of the wires and the stars shown. Then submit the page to be shown'+
+            'the wires that need to be cut. If there is no wire choose the blank wire option after the red-blue wire.'
+            page_link.setAttribute('href', "../KTANE-Complicated-Wires/KTANE-complicated-wires.html") 
             break
         case "wire-sequences":
             display_img.src = "../imgs/ktane-wire-sequences.png" 
             display_description.innerText = ''
-            page_link.setAttribute('href', "")
+            page_link.setAttribute('href', "../KTANE-Wire-Sequences/KTANE-wire-sequences.html")
             break
         case "mazes":
             display_img.src = "../imgs/ktane-button.png" 

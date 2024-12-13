@@ -1,0 +1,186 @@
+#comp-wires-outer{
+    display: flex;
+    flex-direction: column;
+    background-color: #585865;
+    width: 500px;
+    height: 100%;
+}
+
+#light-div{
+    display: flex;
+    flex-direction: row;
+    background-color: #585865;
+    width: 350px;
+    height: 100px;
+    margin: 0px 0px 0px 75px;
+}
+
+#star-div{
+    display: flex;
+    flex-direction: row;
+    background-color: #585865;
+    width: 350px;
+    height: 100px;
+    margin: 0px 0px 0px 75px;
+}
+
+#wire-div{
+    width: 300px;
+    height: 500px;
+    margin: 0px 0px 0px 75px;
+}
+
+#inner-wire-div{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+
+#input-div{
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+}
+
+#left-button, #right-button{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FB773C;
+    border-color: #0A5EB0;
+    border-width: 5px;
+    font-size: 30px;
+}
+
+#left-button:hover, #right-button:hover{
+    background-color: #0A5EB0;
+}
+
+#battery-label{
+    text-align: center;
+    padding: 30px;
+}
+
+#submit-button{
+    height: 50px;
+    border-radius: 50px;
+    background-color:#FB773C;
+    border-color:#00FF9C;
+    color: #FDF7F4;
+    font-size: 30px;
+}
+
+#submit-button:hover{
+    background-color: #00FF9C;
+}
+
+#reset-button{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    font-size: 90px;
+    background-color: #FB773C;
+    border-color: #FF0000;
+    border-width: 10px;
+    color: white;
+}
+
+#reset-button:hover{
+    background-color: #FF0000;
+}
+
+#parallel-img{
+    width: 200px;
+    height: 50px;
+}
+
+#parallel-button{
+    border-width: 5px;
+    background-color: #FDF7F4;
+    border-color: #FDF7F4;
+}
+
+#even-button{
+    border-width: 5px;
+    background-color: #FB773C;
+    border-color: #FF0000;
+    height: 50px;
+    border-radius: 50px;
+    color: #FDF7F4;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#even-button:hover{
+    background-color: #FF0000;
+}
+
+.wire-imgs{
+    margin: 5px;
+    height: 240px;
+    width: 48px;
+}
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    background-color: #585865;
+    width: 350px;
+    height: 50px;
+}
+
+.up-buttons{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    border-width: 6px;
+    font-size: 30px;
+    background-color: #585865;
+    border-color: #1F509A;
+}
+
+.up-buttons:hover{
+    background-color: #1F509A;
+}
+
+.down-buttons{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    border-width: 6px;
+    font-size: 30px;
+    background-color: #585865;
+    border-color: #FF0000;
+}
+
+.down-buttons:hover{
+    background-color: #FF0000;
+}
+
+.light-buttons{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    border-width: 6px;
+    background-color: #FDF7F4;
+}
+
+.light-buttons:hover{
+    background-color: #FEEC37;
+}
+
+.star-buttons{
+    background-color: #937453;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+    border-width: 6px;
+    font-size: 30px;
+}
+
+.star-buttons:hover{
+    background-color: #FDF7F4;
+}
+

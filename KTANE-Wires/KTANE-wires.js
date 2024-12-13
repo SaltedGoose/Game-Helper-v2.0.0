@@ -66,7 +66,7 @@ function reset_page(){
     }
 }
 
-function submit_page(){
+function submit_page(){ 
     if(serial == 'none'){
         return
     }
@@ -104,6 +104,9 @@ function submit_page(){
         if(wire_list[wire_list.length - 1] == 'black' & serial == 'odd'){
             document.getElementById('cut-display-4').style.visibility = 'visible'
         }
+        else if(num_of_red = 1 & num_of_yellow > 1){
+            document.getElementById('cut-display-1').style.visibility = 'visible'
+        }
         else if(num_of_black == 0){
             document.getElementById('cut-display-2').style.visibility = 'visible'
         }
@@ -111,9 +114,12 @@ function submit_page(){
             document.getElementById('cut-display-1').style.visibility = 'visible'
         }
     }
-    else if(wire_list == 6){
+    else if(wire_list.length == 6){
         if(num_of_yellow == 0 & serial == 'odd'){
             document.getElementById('cut-display-3').style.visibility = 'visible'
+        }
+        else if(num_of_yellow = 1 & num_of_white > 1){
+            document.getElementById('cut-display-4').style.visibility = 'visible'
         }
         else if(num_of_red == 0){
             document.getElementById('cut-display-6').style.visibility = 'visible'

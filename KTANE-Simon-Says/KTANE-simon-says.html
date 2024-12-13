@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="KTANE-simon-says.css">
+    <title>KTANE-simon-says</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <a class="top-nav-bar" href="../KTANE-Home/KTANE-home.html">Home</a>
+        <a class="top-nav-bar" href="../KTANE-Wires/KTANE-wires.html">Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Buttons/KTANE-buttons.html">Buttons</a>
+        <a class="top-nav-bar" href="../KTANE-Keypad/KTANE-keypad.html">Keypads</a>
+        <a class="top-nav-bar active" href="KTANE-simon-says.html">Simon</a>
+        <a class="top-nav-bar" href="../KTANE-Who-is-first/KTANE-who-is-first.html">Who's first</a>
+        <a class="top-nav-bar" href="../KTANE-Memory/KTANE-memory.html">Memory</a>
+        <a class="top-nav-bar" href="../KTANE-Morse-Code/KTANE-morse-code.html">Morse</a>
+        <a class="top-nav-bar" href="../KTANE-Complicated-Wires/KTANE-complicated-wires.html">Comp Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Wire-Sequences/KTANE-wire-sequences.html">Wire Seq</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Mazes</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Passwords</a>
+    </div>
+    <div id="main-div">
+        <div style="display: flex; flex-direction: column; width: 20%; height: 200px;">
+            <button id="vowel-button">Vowel</button>
+            <div style="display: flex; flex-direction: row; margin-top: 30px;">
+                <button id="strike-button">Strike</button>
+                <img style="margin-left: 20px;" id="strike-1" class="strike-img" src="../imgs/strike-x.png" alt="strike-x">
+                <img style="margin-left: 20px;" id="strike-2" class="strike-img" src="../imgs/strike-x.png" alt="strike-x">
+            </div>
+            <button id="submit-button" class="operator-buttons">Submit</button>
+            <button id="reset-button" class="operator-buttons">Reset</button>
+        </div>
+        <div style="width: 33%;">
+            <table style="margin-left: 100px;">
+                <tr>
+                    <td></td>
+                    <td><button id="blue-button" class="colour-button"></button></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><button id="red-button" class="colour-button"></button></td>
+                    <td></td>
+                    <td><button id="yellow-button" class="colour-button"></button></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button id="green-button" class="colour-button"></button></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div style="width: 33%;">
+            <button id="colour-display-1"  class="colour-displays" disabled></button><br><br>
+            <button id="colour-display-2" class="colour-displays" disabled></button><br><br>
+            <button id="colour-display-3" class="colour-displays" disabled></button><br><br>
+            <button id="colour-display-4" class="colour-displays" disabled></button><br><br>
+            <button id="colour-display-5" class="colour-displays" disabled></button><br><br>
+        </div>
+    </div>
+    <footer>
+        <strong>
+            <h3 style="margin: 0px; float: left; padding-top: 35px; padding-left: 10px;">Simon-Says v1.0.0</h3>
+            <img id="footer-logo-img" src="../imgs/logo.jpg" alt="logo-img">
+        </strong>
+    </footer>
+    <script src="KTANE-simon-says.js"></script>
+</body>
+</html>

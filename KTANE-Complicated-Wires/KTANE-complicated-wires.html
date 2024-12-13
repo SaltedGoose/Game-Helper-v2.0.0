@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="KTANE-complicated-wires.css">
+    <title>KTANE-complicated-wires</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <a class="top-nav-bar" href="../KTANE-Home/KTANE-home.html">Home</a>
+        <a class="top-nav-bar" href="../KTANE-Wires/KTANE-wires.html">Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Buttons/KTANE-buttons.html">Buttons</a>
+        <a class="top-nav-bar" href="../KTANE-Keypad/KTANE-keypad.html">Keypads</a>
+        <a class="top-nav-bar" href="../KTANE-Simon-Says/KTANE-simon-says.html">Simon</a>
+        <a class="top-nav-bar" href="../KTANE-Who-is-first/KTANE-who-is-first.html">Who's first</a>
+        <a class="top-nav-bar" href="../KTANE-Memory/KTANE-memory.html">Memory</a>
+        <a class="top-nav-bar" href="../KTANE-Morse-Code/KTANE-morse-code.html">Morse</a>
+        <a class="top-nav-bar active" href="KTANE-complicated-wires.html">Comp Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Wire-Sequences/KTANE-wire-sequences.html">Wire Seq</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Mazes</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Passwords</a>
+    </div>
+    <div id="main-div">
+        <div id="input-div">
+            <h2>Number of Batteries</h2>
+            <div style="padding-top: 20px; font-size: 30px;">
+                <button id="left-button">←</button>
+                <label id="battery-label">0</label>
+                <button id="right-button">→</button>
+            </div>
+            <div style="padding-top: 40px; padding-bottom: 20px;">
+                <button id="parallel-button"><img id="parallel-img" src="../imgs/parrallel-port.png" alt="parallel-port"></button>
+            </div>
+            <button id="even-button">Even</button>
+            <button id="submit-button">Submit</button>
+        </div>
+        <div id="comp-wires-outer">
+            <div id="light-div">
+                <button id="light-button-1" class="light-buttons"></button>
+                <button id="light-button-2" class="light-buttons"></button>
+                <button id="light-button-3" class="light-buttons"></button>
+                <button id="light-button-4" class="light-buttons"></button>
+                <button id="light-button-5" class="light-buttons"></button>
+                <button id="light-button-6" class="light-buttons"></button>
+            </div>
+            <div id="wire-div">
+                <div class="button-div">
+                    <button id="up-button-1" class="up-buttons">↑</button>
+                    <button id="up-button-2" class="up-buttons">↑</button>
+                    <button id="up-button-3" class="up-buttons">↑</button>
+                    <button id="up-button-4" class="up-buttons">↑</button>
+                    <button id="up-button-5" class="up-buttons">↑</button>
+                    <button id="up-button-6" class="up-buttons">↑</button>
+                </div>
+                <div id="inner-wire-div">
+                    <img  id="wire-1-img" class="wire-imgs" src="../imgs/wire-imgs/red-wire.png" alt="wire-img">
+                    <img  id="wire-2-img" class="wire-imgs" src="../imgs/wire-imgs/red-wire.png" alt="wire-img">
+                    <img  id="wire-3-img" class="wire-imgs" src="../imgs/wire-imgs/red-wire.png" alt="wire-img">
+                    <img  id="wire-4-img" class="wire-imgs" src="../imgs/wire-imgs/red-wire.png" alt="wire-img">
+                    <img  id="wire-5-img" class="wire-imgs" src="../imgs/wire-imgs/red-wire.png" alt="wire-img">
+                    <img  id="wire-6-img" class="wire-imgs" src="../imgs/wire-imgs/red-wire.png" alt="wire-img">
+                </div>
+                <div class="button-div">
+                    <button id="down-button-1" class="down-buttons">↓</button>
+                    <button id="down-button-2" class="down-buttons">↓</button>
+                    <button id="down-button-3" class="down-buttons">↓</button>
+                    <button id="down-button-4" class="down-buttons">↓</button>
+                    <button id="down-button-5" class="down-buttons">↓</button>
+                    <button id="down-button-6" class="down-buttons">↓</button>
+                </div>
+            </div>
+            <div id="star-div">
+                <button id="star-button-1" class="star-buttons"></button>
+                <button id="star-button-2" class="star-buttons"></button>
+                <button id="star-button-3" class="star-buttons"></button>
+                <button id="star-button-4" class="star-buttons"></button>
+                <button id="star-button-5" class="star-buttons"></button>
+                <button id="star-button-6" class="star-buttons"></button>
+            </div>
+        </div>
+        <div style="margin-left: 30px;">
+            <button id="reset-button">Reset</button>
+        </div>
+    </div>
+    <footer>
+        <strong>
+            <h3 style="margin: 0px; float: left; padding-top: 35px; padding-left: 10px;">Complicated-Wires v1.0.0</h3>
+            <img id="footer-logo-img" src="../imgs/logo.jpg" alt="logo-img">
+        </strong>
+    </footer>
+    <script src="KTANE-complicated-wires.js"></script>
+</body>
+</html>

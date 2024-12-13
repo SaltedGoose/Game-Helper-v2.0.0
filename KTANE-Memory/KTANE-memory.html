@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="KTANE-memory.css">
+    <title>KTANE-Memory</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <a class="top-nav-bar" href="../KTANE-Home/KTANE-home.html">Home</a>
+        <a class="top-nav-bar" href="../KTANE-Wires/KTANE-wires.html">Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Buttons/KTANE-buttons.html">Buttons</a>
+        <a class="top-nav-bar" href="../KTANE-Keypad/KTANE-keypad.html">Keypads</a>
+        <a class="top-nav-bar" href="../KTANE-Simon-Says/KTANE-simon-says.html">Simon</a>
+        <a class="top-nav-bar" href="../KTANE-Who-is-first/KTANE-who-is-first.html">Who's first</a>
+        <a class="top-nav-bar active" href="KTANE-memory.html">Memory</a>
+        <a class="top-nav-bar" href="../KTANE-Morse-Code/KTANE-morse-code.html">Morse</a>
+        <a class="top-nav-bar" href="../KTANE-Complicated-Wires/KTANE-complicated-wires.html">Comp Wires</a>
+        <a class="top-nav-bar" href="../KTANE-Wire-Sequences/KTANE-wire-sequences.html">Wire Seq</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Mazes</a>
+        <a class="top-nav-bar" href="KTANE-wires.html">Passwords</a>
+    </div>
+    <div id="main-div">
+        <div id="display-button-div">
+            <div>
+                <button id="display-1-button" class="display-buttons">1</button>
+                <button id="display-2-button" class="display-buttons">2</button><br>
+                <button id="display-3-button" class="display-buttons">3</button>
+                <button id="display-4-button" class="display-buttons">4</button>
+            </div>
+            <h3 id="pos-num-display">Pos:   -   Num: </h3>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div id="number-heading-div">
+                <h3 id="number-heading">1</h3>
+            </div>
+            <div>
+                <button id="up-arrow-1" class="selector-buttons arrow-buttons up-arrows">↑</button>
+                <button id="up-arrow-2" class="selector-buttons arrow-buttons up-arrows">↑</button>
+                <button id="up-arrow-3" class="selector-buttons arrow-buttons up-arrows">↑</button>
+                <button id="up-arrow-4" class="selector-buttons arrow-buttons up-arrows">↑</button>
+            </div>
+            <div>
+                <button id="num-display-1" class="selector-buttons number-buttons">1</button>
+                <button id="num-display-2" class="selector-buttons number-buttons">1</button>
+                <button id="num-display-3" class="selector-buttons number-buttons">1</button>
+                <button id="num-display-4" class="selector-buttons number-buttons">1</button>
+            </div>
+            <div>
+                <button id="down-arrow-1" class="selector-buttons arrow-buttons down-arrows">↓</button>
+                <button id="down-arrow-2" class="selector-buttons arrow-buttons down-arrows">↓</button>
+                <button id="down-arrow-3" class="selector-buttons arrow-buttons down-arrows">↓</button>
+                <button id="down-arrow-4" class="selector-buttons arrow-buttons down-arrows">↓</button>
+            </div>
+        </div>
+        <div id="turn-counter-div-outer">
+            <div id="turn-counter-div-inner">
+                <img id="memory-light-1" class="memory-turn-light-img" src="../imgs/memory-turn-counter.png" alt="memory-turn-light">
+                <img id="memory-light-2" class="memory-turn-light-img" src="../imgs/memory-turn-counter.png" alt="memory-turn-light">
+                <img id="memory-light-3" class="memory-turn-light-img" src="../imgs/memory-turn-counter.png" alt="memory-turn-light">
+                <img id="memory-light-4" class="memory-turn-light-img" src="../imgs/memory-turn-counter.png" alt="memory-turn-light">
+                <img id="memory-light-5" class="memory-turn-light-img" src="../imgs/memory-turn-counter.png" alt="memory-turn-light">
+            </div>
+        </div>
+        <div>
+            <button id="reset-button">Reset</button>
+        </div>
+    </div>
+    <footer>
+        <strong>
+            <h3 style="margin: 0px; float: left; padding-top: 35px; padding-left: 10px;">Memory v1.0.0</h3>
+            <img id="footer-logo-img" src="../imgs/logo.jpg" alt="logo-img">
+        </strong>
+    </footer>
+    <script src="KTANE-memory.js"></script>
+</body>
+</html>

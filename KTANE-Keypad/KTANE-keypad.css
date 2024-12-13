@@ -4,6 +4,37 @@
     margin: 10px;
 }
 
+.display-imgs{
+    margin: 10px 50px;
+    width: 80px;
+    height: 70px;
+}
+
+.operator-buttons{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #FB773C;
+    border-width: 10px;
+}
+
+#submit-button{
+    border-color: #00FF9C;
+}
+
+#submit-button:hover{
+    background-color: #00FF9C;
+}
+
+#reset-button{
+    border-color: #FF4545;
+}
+
+#reset-button:hover{
+    background-color: #FF4545;
+}
+
 img{
     width: 65px;
     height: 60px;
