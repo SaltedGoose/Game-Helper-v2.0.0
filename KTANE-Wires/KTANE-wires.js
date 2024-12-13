@@ -71,7 +71,7 @@ function submit_page(){
         return
     }
     if(wire_list.length == 3){
-        if(wire_list.includes("red")){
+        if(!wire_list.includes("red")){
             document.getElementById("cut-display-2").style.visibility = 'visible'
         }
         else if(num_of_blue > 1){
