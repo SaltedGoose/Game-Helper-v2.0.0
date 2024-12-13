@@ -206,7 +206,7 @@ function submit(){
                 console.log('here-white')
                 switch(light_button_states[x]){
                     case true:
-                        if(num_of_batteries >= 2){
+                        if(num_of_batteries >= 2 & star_button_states[x]){
                             wire_cut_states[x] = 'cut'
                         }
                         break
